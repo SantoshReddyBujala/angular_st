@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-welcome',
   standalone: true,
   imports: [],
+  providers:[],//services need to add
   templateUrl: './welcome.component.html',
   styleUrl: './welcome.component.scss'
 })
