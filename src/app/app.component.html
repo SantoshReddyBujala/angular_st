@@ -1,2 +1,4 @@
 <h1>Hello Santosh</h1>
-<app-welcome></app-welcome>
+<app-welcome [welcomeMessage]="welcomeMsg" (sendMessage)="receiveMessage($event)"></app-welcome>
+<span>{{receingMessage}}</span>
+<app-stand-false></app-stand-false>

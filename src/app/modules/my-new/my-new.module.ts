@@ -10,6 +10,9 @@ import { StandFalseComponent } from './stand-false/stand-false.component';
   ],
   imports: [
     CommonModule
+  ], 
+  exports:[
+    StandFalseComponent
   ]
 })
 export class MyNewModule { }
